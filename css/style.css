@@ -1,32 +1,43 @@
-body{
-	font-family: 'Lora', serif;
+body {
+  font-family: "Lora", serif;
 }
 
 .img-responsive {
-	width:1200px !important;
-	height:450px !important;
+  width: 1200px !important;
+  height: 450px !important;
 }
 
 /* Mapa */
 #mapa {
-	width: 100%;
-	height: 500px;
-  }
+  width: 100%;
+  height: 500px;
+}
 
 /* Menu */
-.Elements ul li a{
-	font-size: 16px;
+.Elements ul li a {
+  font-size: 16px;
 }
 .sticky {
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
 
-	display:inline-block;
+  display: inline-block;
 }
 /*Carousel*/
-#carouselExampleControls{
-	max-height: 703px;
-	background-size: cover;
-	background-position: center;
+#carouselExampleControls {
+  max-height: 703px;
+  background-size: cover;
+  background-position: center;
+}
+.carousel .carousel-item {
+  height: 500px;
+}
+
+.carousel-item img {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 500px;
 }
