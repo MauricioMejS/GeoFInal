@@ -15,11 +15,6 @@
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
-    <rel ="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -117,7 +112,7 @@
               </h1>
               <h2 style="color:black" class="animate__animated animate__zoomIn">en León, Gto.</h3>
             </div>
-            <div style="text-align: justify">
+            <div style="text-align: center;">
               <p id="servicios">
                 En Vetfriend somos médicas veterinarias tituladas, con
                 experiencia en pequeñas especies. Nuestra prioridad es la salud
@@ -131,8 +126,8 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid bg-light py-5">
-      <div class="container">
+    <div class="container-fluid py-5" style="background-color: #6FA3D6;">
+      <div class="container" >
         <div class="row">
           <div class="col-12 col-md-4">
             <a href="servicios"></a>
@@ -145,11 +140,12 @@
               data-holder-rendered="true"
               />
             </div>
-            <h2 class="p-2 text-center">Estética y Accesorios</h2>
-            <p class="text-justify" style="text-align: justify">
+            <h2 class="p-2 text-center" style="color: #ffffff; text-shadow: black 0.1em 0.1em 0.1em">Estética y Accesorios</h2>
+            <p style="text-align: justify; color: #ffffff;">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
               sollicitudin erat et arcu viverra, in ornare nunc luctus. Mauris
               at rutrum orci.
+            </p>
           </div>
           <div class="col-12 col-md-4">
             <div style="width: 230px; height: 180px;" class="container">
@@ -161,29 +157,29 @@
                 data-holder-rendered="true"
               />
             </div>
-            <h2 class="p-2 text-center">Farmacia y consulta</h2>
-            <p style="text-align: justify">
+            <h2 class="p-2 text-center" style="color: #ffffff; text-shadow: black 0.1em 0.1em 0.1em">Farmacia y consulta</h2>
+            <p style="text-align: justify; color: #ffffff;">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
               sollicitudin erat et arcu viverra, in ornare nunc luctus. Mauris
               at rutrum orci.
             </p>
           </div>
           <div class="col-12 col-md-4">
-            <img
+            <div style="width: 230px; height: 180px;" class="container">
+              <img
               src="https://i.imgur.com/YhBVNG9.jpg"
               alt=""
-              class="w-100 rounded shadow"
+              class="w-100 h-100 rounded-circle text-center shadow"
               data-aos="zoom-in"
+              data-holder-rendered="true"
             />
-            <h2 class="p-2 text-center">Cirugía</h2>
-            <p style="text-align: justify">
+            </div>
+            
+            <h2 class="p-2 text-center" style="color: #ffffff; text-shadow: black 0.1em 0.1em 0.1em">Cirugía</h2>
+            <p style="text-align: justify; color: #ffffff;">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
               sollicitudin erat et arcu viverra, in ornare nunc luctus. Mauris
-              at rutrum orci. In vitae cursus metus. Donec congue lacus ac augue
-              dapibus aliquet. Vestibulum tempus quam vitae lorem ultrices
-              hendrerit. Curabitur ac eleifend nisi. Nunc pulvinar vehicula
-              ligula quis malesuada. Maecenas sed mauris eget diam commodo
-              ultricies. Duis id consequat tortor.
+              at rutrum orci.
             </p>
           </div>
         </div>
@@ -203,8 +199,8 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h3 class="2">Pie de Pagina</h3>
-            <p>
+            <h3 style="color: #ffffff;" class="2">Pie de Pagina</h3>
+            <p style="color: #ffffff;"> 
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
               sollicitudin erat et arcu viverra, in ornare nunc luctus. Mauris
               at rutrum orci. In vitae cursus metus. Donec congue lacus ac augue
@@ -235,6 +231,7 @@
         var map = new google.maps.Map(document.getElementById("mapa"), {
           center: coordenadas,
           zoom: 15,
+          
         });
       }
     </script>

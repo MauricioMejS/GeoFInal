@@ -1,6 +1,12 @@
 body {
-  font-family: "Lora", serif;
+  font-family: "Roboto", serif;
 }
+
+p{
+  font-size: 20px;
+}
+
+
 
 .img-responsive {
   width: 1200px !important;
@@ -18,7 +24,7 @@ h2{
 
 /* Menu */
 .Elements ul li a {
-  font-size: 16px;
+  font-size: 18px;
 }
 .sticky {
   position: -webkit-sticky;
