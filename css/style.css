@@ -1,52 +1,45 @@
 body {
-  font-family: "Roboto", serif;
+    font-family: "Roboto", serif;
 }
 
-p{
-  font-size: 20px;
+p {
+    font-size: 20px;
 }
-
 
 
 .img-responsive {
-  width: 1200px !important;
-  height: 450px !important;
+    width: 1200px !important;
+    height: 450px !important;
 }
-h2{
-  color:#2B5DFF;
+h2 {
+    color: #2B5DFF;
 }
 
 /* Mapa */
 #mapa {
-  width: 100%;
-  height: 500px;
+    width: 100%;
+    height: 500px;
 }
 
 /* Menu */
 .Elements ul li a {
-  font-size: 18px;
+    font-size: 18px;
 }
-.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0px;
 
-  display: inline-block;
-}
 /*Carousel*/
 #carouselExampleControls {
-  max-height: 703px;
-  background-size: cover;
-  background-position: center;
+    max-height: 703px;
+    background-size: cover;
+    background-position: center;
 }
 .carousel .carousel-item {
-  height: 500px;
+    height: 500px;
 }
 
 .carousel-item img {
-  position: absolute;
-  object-fit: cover;
-  top: 0;
-  left: 0;
-  min-height: 500px;
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
 }
