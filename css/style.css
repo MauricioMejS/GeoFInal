@@ -12,7 +12,11 @@ p {
     height: 450px !important;
 }
 h2 {
-    color: #2B5DFF;
+    color: #6FA3D6;
+}
+h3{
+    color: #6FA3D6;
+    font-size: 20px;
 }
 
 /* Mapa */
@@ -42,4 +46,23 @@ h2 {
     top: 0;
     left: 0;
     min-height: 500px;
+}
+/*imgs efects*/
+.zoom {
+    transition: transform 0.2s;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+
+}
+/*Buttons*/
+#btnEnviar{
+    background-color: #6FA3D6;
+    color: #ffffff;
+    width: 100%;
+}
+#btnEnviar:hover{
+    background-color: #2B81D6;
 }
