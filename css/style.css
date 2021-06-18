@@ -12,10 +12,10 @@ p {
     height: 450px !important;
 }
 h2 {
-    color: #6FA3D6;
+    color: #215eef;
 }
 h3{
-    color: #6FA3D6;
+    color: #215eef;
     font-size: 20px;
 }
 
@@ -59,7 +59,7 @@ h3{
 }
 /*Buttons*/
 #btnEnviar{
-    background-color: #6FA3D6;
+    background-color: #215eef;
     color: #ffffff;
     width: 100%;
 }
