@@ -30,5 +30,4 @@ git clone https://github.com/MauricioMejS/Vetfriend
 
 
 * **Mauricio Mejia** - *Developer* - [MauricioMejS](https://github.com/MauricioMejS)
-* **Carlos Edelmiro Gomez** - *Designer* - [Linkedin](https://www.linkedin.com/in/carlos-edelmiro-g-307a76119/)
 
