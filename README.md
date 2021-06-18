@@ -1,6 +1,4 @@
-# Vetfriend
 
-_Vetfriend is the first web project that we developed at MDM as an informative site for this business_
 
 ## Starting 🚀
 
